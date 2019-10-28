@@ -1,0 +1,89 @@
+body{
+	padding-top: 70px;
+	background: #80dfff;
+	font-family: 'Roboto', sans-serif;
+}
+
+button:focus {outline:none !important}
+
+.icon i{
+	margin-left: 10px;
+}
+
+.button2{
+	padding: 8px 32px;
+	border-radius: 15px;
+	background-color: transparent;
+	text-align: center;
+	border: 2px solid #faf02d;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+
+.button2:hover{
+	background-color: #faf02d;
+}
+
+.doubleArrow{
+	margin-left: 10px;
+}
+
+.doubleArrow i{
+	transition: transform 0.8s ease-in-out;
+}
+
+.button2:hover .doubleArrow i{
+	transform: rotate(90deg);
+}
+
+.button1{
+	padding: 8px 32px;
+	border-radius: 15px;
+	background-color: transparent;
+	cursor: not-allowed;
+	border: 2px solid #f73636;
+	transition: background-color 0.5s ease;
+}
+
+a img{
+    transition: transform 1s ease-in-out;
+}
+
+a img:hover{
+    transform: rotate(180deg);
+}
+
+.heading{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+.info p{
+	line-height: 2;
+}
+
+.middle{
+	transition: opacity 1s ease;
+	opacity: 0;
+	position: absolute;
+	bottom: 33%;
+	left: 30%;
+	text-align: center;
+}
+
+.pics{
+	transition: opacity 1s ease;
+	opacity: 1.0;
+}
+
+.imageHover:hover .pics{
+	opacity: 0.3;
+}
+
+.imageHover:hover .middle{
+	opacity: 1;
+}
+
+#mainNavbar{
+	background: #99e6ff;
+}
