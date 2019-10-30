@@ -27,53 +27,61 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Resume</a>
 	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contact Me</a>
+	      </li>
 	    </ul>
 	  </div>
 	</nav>
 
-	<div class="heading">
-		<h1>
-			Welcome to my website!
-		</h1>
-	</div>
-
-	<section class="container-fluid">
+	<section class="container-fluid mb-5 pt-3 pb-5">
+		<div class="heading">
+			<h1>
+				Hi I'm Philip! Nice to meet you!
+			</h1>
+		</div>
 		<div class="row justify-content-md-center">
 			<div>
-				<img class="img-responsive" src="imgs/Home/Home.JPG" class="mb-5">
+				<img class="img-responsive" src="imgs/Home/Home.JPG">
 			</div>
 		</div>
 	</section>
 
 	<section class="container mb-5">
 		<div class="row justify-content-md-center">
-			<div class="col-md-10 info mt-5">
-				<h3>
-					About Me
-				</h3>
-				<p>
+			<div class="col-md-10">
+				<div class="aboutMe">
+					<i class="fas fa-user-circle fa-7x mb-2"></i>
+					<h3>
+						About Me
+					</h3>
+				</div>
+				<p class="info">
 					I recently received my Bachelor of Science for Computer Engineering at San Francisco State University and am currently looking for entry-role opportunities for a Software Developer role. I am an enthusiast and a dreamer that loves to see stuff come into reality thus I want to become a developer. At this time, I am working some side projects including developing a personal blog and a game, which is shown in the <a href="portfolio.html">portfolio section</a> of this website along with my recent work. Outside of work, I enjoy going to the gym, spending time with friends/family on watch shows/anime, and playing video games. 
 				</p>
 			</div>
 		</div>
-		<div class="row justify-content-md-center">
+	</section>
+
+	<section class="container">
+		<div class="row justify-content-md-center" style="border: 2px solid black">
 			<div class="col-md-10 info mt-5">
-				<h3>
-					What I can do:
-				</h3>
 				<ul>
+					<i class="fas fa-gamepad fa-5x"></i>
 					<li>Game Development</li>
 					<ul>
 						<li>
 							Can use Swing library from the Java SDK to develop 2D games and C# to develop 3D games with the Unity Engine.
 						</li>
 					</ul>
+					<i class="fas fa-globe-americas fa-5x"></i>
 					<li>Web Development</li>
 					<ul>
 						<li>
 							Self-taught HTML/CSS + JavaScript for the front-end portion and Node.js + Express.js + MongoDB as the backend for a responsive website.
 						</li>
 					</ul>
+					<i class="fab fa-android fa-5x"></i>
 					<li>Android Development</li>
 					<ul>
 						<li>
@@ -97,6 +105,7 @@
 			</div>
 		</div>
 	</section>
+		
 
 	<!-- JS, Popper.js, and jQuery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

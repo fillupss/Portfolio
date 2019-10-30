@@ -1,10 +1,18 @@
 body{
-	padding-top: 70px;
-	background: #80dfff;
+	padding-top: 65px;
+	background: white;
 	font-family: 'Roboto', sans-serif;
 }
 
+section:nth-child(2){
+	background: #80dfff;
+}
+
 button:focus {outline:none !important}
+
+.aboutMe{
+	text-align: center;
+}
 
 .icon i{
 	margin-left: 10px;
@@ -58,7 +66,7 @@ a img:hover{
 	text-align: center;
 }
 
-.info p{
+.info{
 	line-height: 2;
 }
 
