@@ -95,3 +95,12 @@ a img:hover{
 #mainNavbar{
 	background: #99e6ff;
 }
+
+.skills{
+	border: 2px solid black; 
+	text-align: center;
+}
+
+.divider{
+	border-right: 1px solid black;
+}
