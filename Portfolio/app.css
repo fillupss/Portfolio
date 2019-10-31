@@ -109,3 +109,11 @@ a img:hover{
 .divider div:nth-child(2){
 	text-align: left;
 }
+
+.list ul li{
+	margin:0 0 10px 0;
+}
+
+section:nth-child(5){
+	background-color: #e1e3e1;
+}
