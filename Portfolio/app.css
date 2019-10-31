@@ -98,9 +98,14 @@ a img:hover{
 
 .skills{
 	border: 2px solid black; 
+	border-radius: 10px;
 	text-align: center;
 }
 
 .divider{
 	border-right: 1px solid black;
+}
+
+.divider div:nth-child(2){
+	text-align: left;
 }
