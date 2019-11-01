@@ -28,7 +28,7 @@
 	        <a class="nav-link" href="#">Resume</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Contact Me</a>
+	        <a class="nav-link" onclick="scrollToContact()" style="cursor: alias;">Contact Me</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -63,7 +63,7 @@
 		</div>
 	</section>
 
-	<section class="container skills">
+	<section class="container" id="skills">
 		<div class="row pt-3 pb-3">
 			<div class="col-md-4 divider">
 				<div>
@@ -113,7 +113,7 @@
 						<li>
 							Design Tools:
 							<ul>
-								<li>Bootstrap 3/4</li>
+								<li>Bootstrap</li>
 								<li>MongoDB</li>
 								<li>Sublime</li>
 								<li>MapBox API</li>
@@ -154,18 +154,25 @@
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid mt-5">
-		<div class="row">
-			<div class="col-md-6 text-right" style="border-right: solid black 1px;">
-				<h2>
-					Looking for a Developer?
-				</h2>
-				<button type="button" class="btn btn-outline-primary">Contact Me <i class="fas fa-arrow-circle-right"></i></button>
-			</div>
-			<div class="col-md-6 mt-5" style="border-left: solid black 1px;">
-				<div class="icon">Skype:<a href="https://join.skype.com/invite/ypSpNVS12WTF"><i class="fab fa-skype fa-2x" style="color: #00AFF0;"></i></a></div>
-				<div class="icon">LinkedIn:<a href="https://www.linkedin.com/in/philip-chen-119489151/"><i class="fab fa-linkedin fa-2x" style="color:#0e76a8;"></i></a></div>
-				<div class="icon">Email:<a href="mailto:pchen5@mail.sfsu.edu?Subject=Hello!" target="_top"><i class="fas fa-envelope fa-2x" style="color: #f53d05;"></i></a></div>
+	<section class="container-fluid mt-5" id="contact">
+		<h2 class="mb-3">
+			Looking for a Developer?
+		</h2>
+		<button type="button" class="btn btn-outline-primary mb-3">Contact Me <i class="fas fa-arrow-circle-down"></i></i></button>
+
+		<div class="row justify-content-md-center">
+			<div class="col-lg-3">
+				<div class="row justify-content-md-center">
+					<div class="col-lg-4 mb-3 mb-lg-0">
+						<div class="icon">Skype:<a href="https://join.skype.com/invite/ypSpNVS12WTF"><i class="fab fa-skype fa-2x" style="color: #00AFF0;"></i></a></div>
+					</div>
+					<div class="col-lg-4 mb-3 mb-lg-0">
+						<div class="icon">LinkedIn:<a href="https://www.linkedin.com/in/philipchen97/"><i class="fab fa-linkedin fa-2x" style="color:#0e76a8;"></i></a></div>
+					</div>
+					<div class="col-lg-4 mb-3 mb-lg-0">
+						<div class="icon">Email:<a href="mailto:pchen5@mail.sfsu.edu?Subject=Hello!" target="_top"><i class="fas fa-envelope fa-2x" style="color: #f53d05;"></i></a></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -174,5 +181,8 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="JavaScript/index.js"></script>
+
 </body>
 </html>
