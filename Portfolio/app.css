@@ -22,6 +22,7 @@ button:focus {outline:none !important}
 	border: 2px solid #faf02d;
 	cursor: pointer;
 	transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
 }
 
 .button2:hover{
@@ -33,6 +34,7 @@ button:focus {outline:none !important}
 }
 
 .doubleArrow i{
+	-webkit-transition: transform 0.8s ease-in-out;
 	transition: transform 0.8s ease-in-out;
 }
 
@@ -50,6 +52,7 @@ button:focus {outline:none !important}
 }*/
 
 a img{
+	-webkit-transition: transform 1s ease-in-out;
     transition: transform 1s ease-in-out;
 }
 
@@ -125,6 +128,7 @@ a img:hover{
 }
 
 .nav-link{
+	-webkit-transition: background-color 1s ease;
 	transition: background-color 1s ease;
 	padding: 15px 0;
 	color:#03e8fc;
@@ -140,6 +144,7 @@ a img:hover{
 
 .col-lg-4:nth-child(1) .icon i{
 	color: #00AFF0;
+	-webkit-transition: text-shadow 0.3s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -149,6 +154,7 @@ a img:hover{
 
 .col-lg-4:nth-child(2) .icon i{
 	color:#0e76a8;
+	-webkit-transition: text-shadow 0.3s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -158,6 +164,7 @@ a img:hover{
 
 .col-lg-4:nth-child(3) .icon i{
 	color: #f53d05;
+	-webkit-transition: text-shadow 0.3s ease-in-out;
 	transition: text-shadow 0.3s ease-in-out;
 }
 
