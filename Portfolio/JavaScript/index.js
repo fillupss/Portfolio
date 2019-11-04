@@ -1,6 +1,6 @@
 $(function(){
 	$(window).resize(function() {
-		var $t = $(".noDivider");
+		var $t = $(".divider");
 	  	if ($(window).width() < 768){
 	        $t.addClass("noDivider");
 	    }

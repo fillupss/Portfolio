@@ -14,10 +14,6 @@ button:focus {outline:none !important}
 	text-align: center;
 }
 
-.icon i{
-	margin-left: 10px;
-}
-
 .button2{
 	padding: 8px 32px;
 	border-radius: 15px;
@@ -62,8 +58,10 @@ a img:hover{
 }
 
 .heading{
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Gudea', sans-serif;
 	text-align: center;
+	margin-bottom: 2%;
+	color: #164df2;
 }
 
 .info{
@@ -100,6 +98,7 @@ a img:hover{
 	border: 2px solid black; 
 	border-radius: 10px;
 	text-align: center;
+	box-shadow: 10px 10px 5px grey;
 }
 
 .list{
@@ -114,6 +113,7 @@ a img:hover{
 	background-color: #e1e3e1;
 	text-align: center;
 	padding: 25px 0;
+	color: #696a6e;
 }
 
 .divider{
@@ -133,3 +133,36 @@ a img:hover{
 .nav-link:hover{
 	background-color: #ffffff;
 }
+
+.icon i{
+	margin-left: 10px;
+}
+
+.col-lg-4:nth-child(1) .icon i{
+	color: #00AFF0;
+	transition: text-shadow 0.3s ease-in-out;
+}
+
+.col-lg-4:nth-child(1) .icon i:hover{
+	text-shadow: 0px 0px 3px #00AFF0;
+}
+
+.col-lg-4:nth-child(2) .icon i{
+	color:#0e76a8;
+	transition: text-shadow 0.3s ease-in-out;
+}
+
+.col-lg-4:nth-child(2) .icon i:hover{
+	text-shadow: 0px 0px 3px #0e76a8;
+}
+
+.col-lg-4:nth-child(3) .icon i{
+	color: #f53d05;
+	transition: text-shadow 0.3s ease-in-out;
+}
+
+.col-lg-4:nth-child(3) .icon i:hover{
+	text-shadow: -2px 0px 1px #f53d05;
+}
+
+
